@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /images/screenshots/
+
+Sitemap: https://YOUR-USERNAME.github.io/motion-studio-website/sitemap.xml
