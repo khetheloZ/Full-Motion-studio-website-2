@@ -147,7 +147,7 @@ Part 3 adds interactivity, dynamic content, form handling, SEO and deployment.
 - **Security:** a Content Security Policy that only allows the site's own scripts, `rel="noopener noreferrer"` on every external link, no inline scripts or `innerHTML` with user input, input validation and length limits, a honeypot field, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy` and `Permissions-Policy` headers, and HTTPS from the hosting platform.
 
 ### Deployment
-The site is deployed on a free platform (GitHub Pages or Netlify). After deploying, the placeholder `https://YOUR-USERNAME.github.io/motion-studio-website` in the canonical links, Open Graph tags, structured data, `sitemap.xml` and `robots.txt` is replaced with the real live address.
+The site is deployed on a free platform (GitHub Pages or Netlify). After deploying, the placeholder `https://khetheloz.github.io/Full-Motion-studio-website-2` in the canonical links, Open Graph tags, structured data, `sitemap.xml` and `robots.txt` is replaced with the real live address.
 
 ## Testing & Responsive Evidence
 The site was tested in Chrome DevTools' device toolbar at mobile, tablet, and desktop widths, confirming the mobile-first breakpoints at 600px and 1024px behave as intended. Screenshots of the home page at each width:

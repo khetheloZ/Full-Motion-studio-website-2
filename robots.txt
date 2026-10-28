@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /images/screenshots/
 
-Sitemap: https://YOUR-USERNAME.github.io/motion-studio-website/sitemap.xml
+Sitemap: https://khetheloz.github.io/Full-Motion-studio-website-2/sitemap.xml
