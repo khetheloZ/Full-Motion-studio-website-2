@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://*.basemaps.cartocdn.com; connect-src 'self' https://formsubmit.co; form-action 'self' https://formsubmit.co mailto:; base-uri 'self'; object-src 'none'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Book a Studio Session in Durban | Motion Studio</title>
+    <meta name="description" content="Send a booking enquiry to Motion Studio in Durban and get an instant cost estimate for studio hire, photographer packages, maternity or graduation shoots.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1c1b19">
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/motion-studio-website/enquiry.html">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Motion Studio">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:title" content="Book a Studio Session in Durban | Motion Studio">
+    <meta property="og:description" content="Send a booking enquiry to Motion Studio in Durban and get an instant cost estimate for studio hire, photographer packages, maternity or graduation shoots.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/motion-studio-website/enquiry.html">
+    <meta property="og:image" content="https://YOUR-USERNAME.github.io/motion-studio-website/images/portrait-tan-suit-828w.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Book a Studio Session in Durban | Motion Studio">
+    <meta name="twitter:description" content="Send a booking enquiry to Motion Studio in Durban and get an instant cost estimate for studio hire, photographer packages, maternity or graduation shoots.">
+    <meta name="twitter:image" content="https://YOUR-USERNAME.github.io/motion-studio-website/images/portrait-tan-suit-828w.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- site header and navigation, shared across all pages -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" width="575" height="1024" alt="Motion Studioz - Content and Creation logo">
+            </a>
+            <span class="brand-name">Motion Studio</span>
+            <p>For creatives, by creatives</p>
+        </div>
+        <nav id="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- page heading -->
+        <section class="page-heading">
+            <h1>Book Your Session</h1>
+            <p>Fill in the form below and we'll send you an instant cost estimate, then get back to you to confirm your booking.</p>
+        </section>
+
+        <!-- enquiry layout: content/image left, form right -->
+        <section class="enquiry-layout">
+            <!-- enquiry info and image (left column) -->
+            <div class="enquiry-info">
+                <img src="images/editorial-fringe-colour-828w.jpg" srcset="images/editorial-fringe-colour-480w.jpg 480w, images/editorial-fringe-colour-828w.jpg 828w" sizes="(min-width: 1024px) 40vw, 100vw" width="828" height="950" alt="Editorial portrait with colourful fringe styling, shot at Motion Studio" loading="eager">
+                <h2>Ready to Create?</h2>
+                <p>
+                    Tell us about your shoot and preferred date. A 50% deposit is required to secure
+                    your booking. Full payment is due before the shoot starts. Not sure which package
+                    suits you? Compare them on our <a href="services.html">services page</a>.
+                </p>
+            </div>
+
+            <!-- booking enquiry form (right column) -->
+            <div class="enquiry-form">
+                <form id="enquiry-form" action="https://formsubmit.co/ktzondi63@gmail.com" method="post" novalidate>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" autocomplete="name" maxlength="60" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" autocomplete="email" maxlength="120" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="075 400 7473" maxlength="20" required>
+
+                    <label for="package">Package / Service</label>
+                    <select id="package" name="package" required>
+                        <option value="" data-mode="none">Select a package</option>
+                        <option value="studio-hire" data-mode="hourly" data-rate="800">Studio Hire</option>
+                        <option value="studio-hire-lights" data-mode="hourly" data-rate="1050">Studio Hire &amp; Lights</option>
+                        <option value="venue-hire" data-mode="venue" data-half="4200" data-full="8600">Venue Hire</option>
+                        <option value="studio-photographer" data-mode="hourly" data-rate="2800" data-extra="150">Studio Hire with In-House Photographer</option>
+                        <option value="podcast-set" data-mode="hourly" data-rate="1050">Podcast Set</option>
+                        <option value="maternity-shoot" data-mode="hourly" data-rate="3000">Maternity Shoot</option>
+                        <option value="graduation-shoot" data-mode="hourly" data-rate="2700">Graduation Shoot</option>
+                    </select>
+
+                    <label for="duration" id="duration-label">Duration</label>
+                    <select id="duration" name="duration" required></select>
+
+                    <label for="preferred-date">Preferred Date</label>
+                    <input type="date" id="preferred-date" name="preferred-date" required>
+
+                    <label for="preferred-time">Preferred Start Time (open 07:00 to 17:00, 7 days a week)</label>
+                    <input type="time" id="preferred-time" name="preferred-time" min="07:00" max="17:00">
+
+                    <label for="num-people">Number of People</label>
+                    <input type="number" id="num-people" name="num-people" min="1" max="30" step="1" inputmode="numeric" required>
+
+                    <div class="check-row" id="family-row" hidden>
+                        <input type="checkbox" id="family-shoot" name="family-shoot" value="yes">
+                        <label for="family-shoot">This is a family shoot</label>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" maxlength="1000" placeholder="Tell us more about your shoot..."></textarea>
+
+                    <div class="hp-field" aria-hidden="true">
+                        <label for="website">Leave this field empty</label>
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <div class="check-row">
+                        <input type="checkbox" id="consent" name="consent" value="yes" required>
+                        <label for="consent">I agree that Motion Studio may use these details to respond to my enquiry.</label>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="New booking enquiry from the Motion Studio website">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <p class="live-estimate" id="live-estimate" aria-live="polite"></p>
+                    <p class="form-status" id="form-status" role="alert"></p>
+                    <button type="submit">Send Enquiry</button>
+                </form>
+
+                <section class="response-panel" id="enquiry-response" aria-live="polite" tabindex="-1" hidden></section>
+            </div>
+        </section>
+    </main>
+
+    <!-- site footer, shared across all pages -->
+    <footer>
+        <div class="footer-brand">
+            <p>&copy; <span id="year">2026</span> Motion Studio. All rights reserved.</p>
+            <address>
+                39 Station Drive, Durban<br>
+                Open daily, 07:00 to 17:00<br>
+                <a href="tel:+27754007473">075 400 7473</a> ·
+                <a href="mailto:bookings@motionstudioza.com">bookings@motionstudioza.com</a>
+            </address>
+        </div>
+        <nav aria-label="Footer navigation">
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/motion.studioz/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61575675421052" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.tiktok.com/@naledi.art?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/forms.js" defer></script>
+    <script src="js/enquiry.js" defer></script>
+</body>
+</html>
