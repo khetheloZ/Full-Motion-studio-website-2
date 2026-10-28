@@ -1,0 +1,19 @@
+window.MS_DATA = window.MS_DATA || {};
+window.MS_DATA.locations = {
+  "locations": [
+    {
+      "id": "station-drive",
+      "name": "Motion Studio, Station Drive",
+      "address": "39 Station Drive, Durban",
+      "lat": -29.8513,
+      "lng": 31.0127
+    },
+    {
+      "id": "windermere",
+      "name": "Motion Studio, Windermere",
+      "address": "73 4th Avenue, Windermere, Berea, 4001",
+      "lat": -29.8402,
+      "lng": 31.0083
+    }
+  ]
+};
